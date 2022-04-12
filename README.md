@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Travel Pod 2.O
+https://travelpod.vercel.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Travel Pod 2.0 is an updated version of the original Travel Pod, which was the first official project I ever made. TravelPod 2.0 makes use of React instead of jQuery, and has changed from a single-page, single-file site to a complex multi-page React app.
 
-## Available Scripts
+## Description
+Travel Pod is an app-based site created for users looking for a podcast for an upcoming drive. Users can enter their starting location and final destination, as well as their podcast interests, and a curated list of podcasts will be shown to the user. It is a list based on the length of the user's trip. This is done by multiple API's taking the location and turning it into GPS coordinates, putting the trip distance in minutes, and appending podcasts of a certain length with a specified margin of error.
 
-In the project directory, you can run:
+## Motivation
+I wanted a podcast search engine that really filled a specific need for people. Users shouldn't have to worry about playing a new podcast while driving, or always keeping track of "where they left off" because the drive and podcasts are totally different lengths.
 
-### `npm start`
+## Built With
+* Javascript
+* HTML
+* CSS
+* Listen API
+* Bing Distance Matrix API
+* Mapbox Geocoding
+* Git/Github
+* Vercel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+* search through a list of podcasts based on user trip
+* find out how long a certain trip is
+* go to podcasts' direct website or episode URL
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
+### Welcome
+![Welcome](https://user-images.githubusercontent.com/76211223/163043394-7b8e0516-76a0-42bd-bd5a-af6dd9c20a64.PNG)
 
-### `npm test`
+### Starting Location
+![Starting](https://user-images.githubusercontent.com/76211223/163043355-39986eec-740f-4239-9d27-556b1ea9ed01.PNG)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Ending Location
+![Ending](https://user-images.githubusercontent.com/76211223/163043439-b76386aa-a93b-4e72-b50e-effc5a51c4d1.PNG)
 
-### `npm run build`
+### Podcast
+![Podcast](https://user-images.githubusercontent.com/76211223/163043484-a2db430d-f23b-4b42-97c5-47ab8f3727c7.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Results
+![Results](https://user-images.githubusercontent.com/76211223/163043523-db4ed65c-d0b0-45de-aac9-e1d7336ebd1e.PNG)
