@@ -26,7 +26,7 @@ I wanted a podcast search engine that really filled a specific need for people. 
 
 ## Screenshots
 ### Welcome
-![Welcome](https://user-images.githubusercontent.com/76211223/163043394-7b8e0516-76a0-42bd-bd5a-af6dd9c20a64.PNG)
+![Welcome](https://user-images.githubusercontent.com/76211223/163044005-ca0cd957-60e0-410e-ae83-05a314715f36.PNG)
 
 ### Starting Location
 ![Starting](https://user-images.githubusercontent.com/76211223/163043355-39986eec-740f-4239-9d27-556b1ea9ed01.PNG)
