@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(0, 0, 163)
+}
+
+#root {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    color: white;
+    background-color: darkblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    min-width: 420px;
+    width: 50%;
+    max-width: 600px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 0px 0px 2.5px black;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.welcomePage, .startPage, .endPage, .podcastPage {
+    width: 100%;
+}
+/******* TITLE ********/
+h1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 72px;
+}
+
+.subtitle {
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+}
+
+.welcomeTo {
+    right: 135px
+} .whereFrom {
+    right: 130px
+} .whereTo {
+    right: 143px
+} .whatsOn {
+    right: 140px
+}
+
+/****** WELCOME PAGE NAV ********/
+.dropdownNav, label {
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 2px;
+    cursor: pointer;
+}
+/*************/
+/******** BUTTONS AND TEXT **********/
+.navButton  {
+    border: none;
+    background: none;
+    color: white;
+}
+
+.Begin {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+.Confirm {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.locationConfirm {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.location {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+
+}
+/*****************/
+/******** SEARCH NAV **********/
+.searchNav {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 350px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 5px;
+}
+
+::placeholder {
+    font-style: italic;
+}
+
+.Search {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cityDirections {
+    opacity: .5;
+    font-style: italic;
+}
+/**************/
+/*************** FLOATING USER DATA *************/
+.userData {
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+/********************/
+/********* PODCAST LIST & CARDS **************/
+.podcast_results {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.grid_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+
+.grid_item {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    background-color: rgb(0, 0, 160);
+}
+
+.thumbnail {
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.podcast_card {
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+h3 {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+
+.podInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px 0px 5px
+}
+
+.descButton:hover, img {
+    cursor: pointer;
+}
+
+.description {
+    width:375px;
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hide {
+    font-style: italic;
+}
+
+.dropdown_icon {
+    padding-top: 5px;
+}
+
+.download:hover, .descButton:hover, .listennotes:hover, h3:hover {
+    color: yellow;
+    transition: color .5s;
+}
+
+.noDataMessage {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    opacity: .75;
+}
+
+.homeLink {
+    font-style: italic;
+    text-decoration: underline;
+}
+/*******************/
